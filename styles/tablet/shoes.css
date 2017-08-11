@@ -1,0 +1,276 @@
+@media (max-width: 1024px) and (min-width: 420px ) {
+    @font-face {
+        font-family: 'Aller Regular';
+        src: url('../../fonts/aller.regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .pink_shoes {
+        background: url("../../images/foot.jpg") no-repeat white center;
+        height: 410px;
+        font-size: 1rem;
+    }
+
+    .text {
+        width:50%;
+        float: right;
+        margin-top: 1rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 140%;
+    }
+
+    .price {
+        background-color: #57c5a0;
+        color: white;
+        margin-bottom: 16px;
+        width: 52px;
+        height: 10px;
+        padding: 27px 8px;
+        font-size: .72rem;
+    }
+
+
+    .full-width-brand {
+        display: none;
+    }
+
+    .full-width-offers {
+        background-color: #242424;
+    }
+
+    .on_sale {
+        height: 180px;
+        width: 320px;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .offers_in_grey {
+        background-color: #312e2e;
+        font-size: 1.3rem;
+        opacity: 0.9;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 60px;
+        padding: 20px;
+    }
+
+    .offers_in_grey > a {
+        color: #ffffff;
+    }
+
+    #on_sale {
+        background: url("../../images/Img.on_sale.png") no-repeat;
+
+    }
+
+    #specials_offers {
+        background: url("../../images/img.specials_offers.png") no-repeat;
+    }
+
+    #must_have {
+        background: url("../../images/Img.must_have.png") no-repeat;
+    }
+
+
+    .full-width-arrivals {
+        background-color: #ebe7df;
+    }
+
+    .new {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 32px;
+    }
+
+    .new a {
+        color: #c5bfb2;
+    }
+
+    .new_arrivals {
+        font-size: 1.3rem;
+        padding-top: 38px;
+    }
+
+    .new_arrivals > a {
+        color: #242424;
+    }
+
+    .all {
+        color: #c9c2b6;
+        padding: 9px;
+        margin-top: 29px;
+        border: solid 2px;
+        font-size: 14px;
+    }
+
+    .white {
+        color: #242424;
+    }
+
+    .shoes_in_row {
+        height: 270px;
+        width: 300px;
+        position: relative;
+        margin: 0 auto;
+        padding: 20px;
+
+    }
+
+    .shoes_in_row > .icons {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        background-color: white;
+        padding-left: 38px;
+    }
+
+    .shoes_in_row > .icons:hover {
+        opacity: 1;
+    }
+
+    .rose-green {
+        background: url("../../images/shouse-rose.png") no-repeat;
+    }
+
+    .black {
+        background: url("../../images/Item-2.png") no-repeat;
+
+    }
+
+    .black_square {
+        width: 52px;
+        height: 10px;
+        background-color: #242424;
+        padding: 27px 8px;
+        color: white;
+        right: 0;
+        top: 0;
+        position: absolute;
+        font-size: .72rem;
+    }
+
+    .rose {
+        background: url("../../images/Item-3.jpg") no-repeat;
+    }
+
+    .brown {
+        background: url("../../images/Img1.png") no-repeat;
+        position: relative;
+
+    }
+
+    .white {
+        height: 11px;
+
+        background-color: #ffffff;
+        position: absolute;
+        bottom: 0;
+        border-top: solid #cccccc 1px;
+        padding: 19px 113px 20px 100px;
+    }
+
+    .green_square {
+        width: 52px;
+        height: 10px;
+        background-color: #57c5a0;
+        padding: 27px 8px;
+        color: white;
+        left: 12px;
+        bottom: 0;
+        position: absolute;
+        font-size: .72rem;
+    }
+
+    .black-gold {
+        background: url("../../images/Item-21.png") no-repeat;
+
+    }
+
+    .shine {
+        background: url("../../images/Item-3.png") no-repeat;
+    }
+
+
+    .full-width-free {
+        background-color: #ebe7df;
+
+    }
+
+    .free {
+        display: flex;
+        justify-content: space-between;
+        border-top: solid 2px #dfdbd4;
+        padding-top: 27px;
+    }
+
+    .free_column {
+        background-color: #dfdbd4;
+    }
+
+    .shipping {
+        width: 220px;
+    }
+
+    .blog {
+        width: 460px;
+    }
+
+    .text_in_free_column {
+        padding: 33px 0 19px 18px;
+        font-weight: bold;
+        font-size: .78rem;
+    }
+
+    .text_in_free_column > a {
+        color: #242424;
+    }
+
+    .free_test_blog {
+        font-size: .67rem;
+        color: #484746;
+        padding: 0 18px;
+        line-height: 150%;
+    }
+
+    .news {
+        margin: 3px 0 11px 0;
+        display: flex;
+    }
+
+    .apr {
+        height: 18px;
+        width: 18px;
+        background-color: #57c5a0;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.56rem;
+        padding: 9px;
+        line-height: 100%;
+    }
+
+    .apr > a {
+        color: white;
+    }
+
+    .apr_text {
+        font-size: .78rem;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+    .apr_text > p {
+        font-size: .67rem;
+        font-weight: normal;
+    }
+
+}

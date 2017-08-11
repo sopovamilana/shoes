@@ -1,0 +1,68 @@
+@media (max-width: 420px) {
+    .full-width-show {
+        background-color: #ebe7df;
+    }
+
+    .about_shoes {
+        padding-top: 80px;
+    }
+
+    .about_shoes > img {
+        width: 300px;
+        height: 220px;
+    }
+
+    .in_show {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #5f5f5f;
+    }
+
+    .in_show img {
+        height: 120px;
+        width: 120px;
+
+    }
+
+    .green_square_in_show {
+        width: 80px;
+        height: 20px;
+        background-color: #57c5a0;
+        padding: 40px 20px;
+        color: white;
+        font-size: 1.3rem;
+        margin: 10px 10px 10px 0;
+        text-align: center;
+    }
+
+    .white_in_show {
+        height: 11px;
+        padding: 19px 10px 20px 0px;
+        width: 100px;
+        font-size: 1.5rem;
+        color: #1c1c1c;
+    }
+
+
+    .size {
+        color: #5f5f5f;
+        margin: 20px;
+        padding-top: 10px;
+    }
+
+    select {
+        color: #5f5f5f;
+        width: 50px;
+        border-radius: 4px;
+
+    }
+
+    .description {
+        font-size: 1.5rem;
+        margin-top: 20px;
+        padding: 10px;
+        color: #5f5f5f;
+    }
+
+}

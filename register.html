@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shoes</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="scripts/jquery.cookie.js"></script>
+    <script src="scripts/jquery.validate.min.js"></script>
+    <script src="scripts/form-validation.js"></script>
+    <script src="scripts/jquery.cookie.js"></script>
+    <link rel="stylesheet" href="styles/shoes.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/mobile/layout.css">
+    <link rel="stylesheet" href="styles/tablet/layout.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/mobile/login.css">
+    <link rel="stylesheet" href="styles/tablet/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Roboto+Condensed" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+          name="viewport">
+</head>
+<body>
+    <div class="header fixed-width">
+        <div id="title">Fooseshoes</div>
+        <a href="#">
+            <img src="images/icon/search Icon.png" alt="search" title="search">
+        </a>
+        <div class="wrapper">
+            <div id="login"><a class="login_href" href="login.html">LOGIN</a></div>
+            <span>or</span>
+            <div id="register"><a class="login_href" href="register.html">REGISTER</a></div>
+        </div>
+    </div>
+    <div class="full-width">
+        <div class="wrapper_menu fixed-width">
+            <ul class="menu">
+                <li><a href="shoes.html">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="star_and_cart">
+                <div class="wrapper_star">
+                    <a href="#"><img src="images/icon/Star-icon.png" alt="star" title="like"></a>
+                    <div class="star">30</div>
+                </div>
+                <div class="wrapper_cart">
+                    <a href="cart.html"><img src="images/icon/cart_icon.png" alt="cart" title="cart"></a>
+                    <div class="cart">0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-width ">
+        <form name="login" method="get" action="" id="login_form" class="sign_up">
+            <div>
+                <label>E-mail:</label>
+                <input name="mail" type="text" size="25" maxlength="30"/>
+            </div>
+            <div>
+                <label>Name:</label>
+                <input name="name" type="text" size="25" maxlength="30"/>
+            </div>
+            <div>
+                <label>Login:</label>
+                <input name="login" type="text" size="25" maxlength="30"/>
+            </div>
+            <div>
+                <label>Password:</label>
+                <input name="pd" type="password" size="25" maxlength="30"/>
+            </div>
+            <label>Remember</label>
+            <input name="remember" type="checkbox"/>
+            <div>
+                <input type="submit" name="enter" value="Sign up" />
+            </div>
+        </form>
+    </div>
+    <div class="full-width-widget">
+        <div class="widget fixed-width">
+            <div class="column">
+                <div class="text_in_column">TEXT WIDGET</div>
+                <span id="text_widget" class="text_widget">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
+            </div>
+            <div class="column">
+                <div class="text_in_column">TWITTER WIDGET</div>
+                <span id="mail" class="text_widget"><a href="#">@ericafustero</a> Why thank you. Your work looks awesome by the way!<a href="#"> @treemelody</a><br>19 days ago<br><a href="#">@roymarvelous</a> You can seek a refund through TF if it is not as advertised - but it is :)<br>21 days ago</span>
+            </div>
+            <div class="column">
+                <div class="text_in_column">FLICKR WIDGET</div>
+                <div id="picture" class="text_widget"></div>
+            </div>
+        </div>
+    </div>
+    <div class="full-width-newsletter">
+        <div class="fixed-width form_and_network">
+            <div class="form">
+                <form action="handler">
+                    <input class="email" type="text" placeholder="Enter email for newsletter"><input class="submit" type="submit" value=">">
+                </form>
+            </div>
+            <div class="network">
+                <a href="#"><img src="images/Facebook-copy.png" alt="facebook" title="facebook"></a>
+                <a href="#"><img src="images/Twitter-copy.png" alt="twitter" title="twitter"></a>
+                <a href="#"><img src="images/gcopy1.png" alt="google+" title="google+"></a>
+                <a href="#"><img src="images/Leakedin-copy.png" alt="leakedin" title="leakedin"></a>
+                <a href="#"><img src="images/Flickr-copy.png" alt="additional network" title="additional network"></a>
+            </div>
+        </div>
+    </div>
+    <div class="full-width-copyright">
+        <div class="fixed-width copyright">
+            <div>Copyright © Fooseshoes 2013.<br>Designed by EnzoLiVolti.</div>
+            <div><a href="#">Home</a> / <a href="#">Support</a> / <a href="#">Terms and Conditions</a> / <a href="#">Faqs</a> / <a href="#">Contact us</a></div>
+        </div>
+    </div>
+</body>
+</html>

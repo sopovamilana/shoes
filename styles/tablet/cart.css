@@ -1,0 +1,25 @@
+@media (max-width: 1024px) and (min-width: 420px ) {
+    .full-width-cart {
+        height: 500px;
+        color: #2e2e2e;
+        background-color: darkgrey;
+    }
+
+    .cart_empty > .basket{
+        text-transform: uppercase;
+        padding: 15px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .cart_empty > img {
+        height: 250px;
+        width: 300px;
+        display: block;
+        margin: 25px auto;
+    }
+
+    .basket > a {
+        color: #2e2e2e;
+    }
+}
